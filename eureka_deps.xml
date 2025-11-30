@@ -9,15 +9,15 @@
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
 		revision="lineage-22.2"/>
-        <remote name="royna"
-                fetch="https://github.com/Roynas-Android-Playground"
+        <remote name="zacky"
+                fetch="https://github.com/zackyape"
 		revision="lineage-22"/>
         <remote name="vv"
                 fetch="https://github.com/vijaymalav564"/>
 
         <!-- Eureka -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka"/>
-        <project path="kernel/samsung/exynos7885" name="ek-private" remote="royna" revision="R24U" recurse_submodules="true"/>
+        <project path="kernel/samsung/exynos7885" name="ek-private" remote="zacky" revision="R24U" recurse_submodules="true"/>
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka"/>
 
         <!-- LineageOS -->
@@ -32,9 +32,9 @@
                  remote="lineage-cp" />
 
         <!-- Royna's forks and repos -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
-        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fifteen"/>
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="zacky"/>
+        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="zacky"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="zacky" revision="fifteen"/>
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"

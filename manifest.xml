@@ -7,6 +7,9 @@
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="fourteen"/>
+        <remote name="zacky"
+                fetch="https://github.com/zackyape"
+		revision="fourteen"/>
 	<remote name="slsi-linaro"
 		fetch="https://github.com/LineageOS"
 		review="review.lineageos.org"
@@ -17,21 +20,21 @@
 	<project path="device/samsung/a20" name="device_samsung_a20" remote="royna"/>
 	<project path="device/samsung/a20e" name="device_samsung_a20e" remote="royna"/>
 	<project path="device/samsung/a30" name="device_samsung_a30" remote="royna"/>
-	<project path="device/samsung/a30s" name="device_samsung_a30s" remote="royna"/>
+	<project path="device/samsung/a30s" name="device_samsung_a30s" remote="zacky"/>
 	<project path="device/samsung/a40" name="device_samsung_a40" remote="royna"/>
-	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="royna"/>
+	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="zacky"/>
 
         <!-- Kernel -->
-	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" recurse_submodules="true" remote="royna" revision="EurekaV2" />
+	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" recurse_submodules="true" remote="zacky" revision="EurekaV2" />
 
         <!-- Vendors -->
 	<project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="royna"/>
 	<project path="vendor/samsung/a20" name="vendor_samsung_a20" remote="royna"/>
 	<project path="vendor/samsung/a20e" name="vendor_samsung_a20e" remote="royna"/>
 	<project path="vendor/samsung/a30" name="vendor_samsung_a30" remote="royna"/>
-	<project path="vendor/samsung/a30s" name="vendor_samsung_a30s" remote="royna"/>
+	<project path="vendor/samsung/a30s" name="vendor_samsung_a30s" remote="zacky"/>
 	<project path="vendor/samsung/a40" name="vendor_samsung_a40" remote="royna"/>
-	<project path="vendor/samsung/exynos7885-common" name="vendor_samsung_exynos7885-common" remote="royna"/>
+	<project path="vendor/samsung/exynos7885-common" name="vendor_samsung_exynos7885-common" remote="zacky"/>
 
         <!-- LineageOS -->
         <project path="hardware/samsung_slsi/libbt"

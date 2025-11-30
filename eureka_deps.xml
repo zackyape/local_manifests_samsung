@@ -9,8 +9,8 @@
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
 		revision="lineage-21"/>
-        <remote name="royna"
-                fetch="https://github.com/Roynas-Android-Playground"
+        <remote name="zacky"
+                fetch="https://github.com/zackyape"
 		revision="lineage-21"/>
 
         <!-- Eureka -->
@@ -30,9 +30,9 @@
                  remote="lineage-cp" />
 
         <!-- Royna's forks and repos -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
-        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fourteen"/>
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="zacky"/>
+        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="zacky"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="zacky" revision="fourteen"/>
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"

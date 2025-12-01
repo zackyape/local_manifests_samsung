@@ -44,6 +44,9 @@
                  remote="lineage-cp" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp"/>
         <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="lineage-cp"/>
+        <project path="device/lineage/sepolicy"
+                 name="android_device_lineage_sepolicy"
+                 remote="lineage-cp" />
 
         <!-- Royna's forks and repos -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-18.1"/>

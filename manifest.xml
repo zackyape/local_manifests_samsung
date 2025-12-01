@@ -13,6 +13,10 @@
 	<remote name="slsi-linaro"
 		fetch="https://github.com/K9100ii"
 		revision="lineage-20"/>
+        <remote name="lineage-sepolicy"
+                fetch="https://github.com/LineageOS"
+                review="review.lineageos.org"
+                revision="lineage-20.0"/>
 
         <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
@@ -46,6 +50,10 @@
                  name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="lineage-cp" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp"/>
+        <project path="device/lineage/sepolicy"
+                 name="android_device_lineage_sepolicy"
+                 remote="lineage-sepolicy" />
+
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"

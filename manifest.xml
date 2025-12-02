@@ -50,9 +50,7 @@
                  name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="lineage-cp" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp"/>
-        <project path="device/lineage/sepolicy"
-                 name="android_device_lineage_sepolicy"
-                 remote="lineage-sepolicy" />
+        
 
 
         <!-- SLSI Linaro -->

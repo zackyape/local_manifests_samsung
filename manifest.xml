@@ -11,8 +11,7 @@
                 fetch="https://github.com/zackyape"
 		revision="fourteen"/>
 	<remote name="slsi-linaro"
-		fetch="https://github.com/LineageOS"
-		review="review.lineageos.org"
+		fetch="https://github.com/eurekadevelopment"
 		revision="lineage-21"/>
 	<remote name="lineage-sepolicy"
 		fetch="https://github.com/LineageOS"
